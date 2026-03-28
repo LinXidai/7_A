@@ -1,7 +1,7 @@
-"""TUI 启动入口。"""
+"""TUI 启动入口"""
 
 from .cmd_processor import main_controller
-from .ui import AgentCLI
+from .tui import AgentCLI
 
 
 def main() -> None:
